@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #202124;
+}
+
+.link, .link-two {
+	display: flex;
+	margin-bottom: 50px;
+	flex-direction: row;
+	font-family: "Playfair Display";
+	color: #FFF;
+	text-decoration: none;
+	font-size: 60px;
+	letter-spacing: 10px;
+}
